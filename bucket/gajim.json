@@ -1,6 +1,6 @@
 {
     "version": "1.7.1",
-    "description": "An instant messaging client for the XMPP protocol which uses the GTK toolkit",
+    "description": "An instant messaging client for the XMPP protocol which uses the GTK toolkit.",
     "homepage": "https://gajim.org/",
     "license": "GPL-3.0-only",
     "architecture": {

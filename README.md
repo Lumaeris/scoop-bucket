@@ -2,6 +2,12 @@
 
 [![Tests](https://github.com/dsrev/scoop-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/dsrev/scoop-bucket/actions/workflows/ci.yml) [![Excavator](https://github.com/dsrev/scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/dsrev/scoop-bucket/actions/workflows/excavator.yml)
 
+Included apps
+-------------
+
+* [Thorium](https://thorium.rocks/) - Google Chromium with additional performance optimization patches and new features.
+* [Gajim](https://gajim.org/) - An instant messaging client for the XMPP protocol which uses the GTK toolkit.
+
 How do I install these manifests?
 ---------------------------------
 
