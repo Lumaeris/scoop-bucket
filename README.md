@@ -1,6 +1,6 @@
-# dsrev's Scoop Bucket
+# Lumaeris' Scoop Bucket
 
-[![Tests](https://github.com/dsrev/scoop-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/dsrev/scoop-bucket/actions/workflows/ci.yml) [![Excavator](https://github.com/dsrev/scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/dsrev/scoop-bucket/actions/workflows/excavator.yml)
+[![Tests](https://github.com/Lumaeris/scoop-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/Lumaeris/scoop-bucket/actions/workflows/ci.yml) [![Excavator](https://github.com/Lumaeris/scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/Lumaeris/scoop-bucket/actions/workflows/excavator.yml)
 
 Included apps
 -------------
@@ -11,7 +11,7 @@ Included apps
 How do I install these manifests?
 ---------------------------------
 
-To add this bucket, run `scoop bucket add dsrev https://github.com/dsrev/scoop-bucket`. To install, do `scoop install <manifest>`.
+To add this bucket, run `scoop bucket add dsrev https://github.com/Lumaeris/scoop-bucket`. To install, do `scoop install <manifest>`.
 
 How do I contribute new manifests?
 ----------------------------------
