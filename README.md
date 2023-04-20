@@ -11,7 +11,7 @@ Included apps
 How do I install these manifests?
 ---------------------------------
 
-To add this bucket, run `scoop bucket add dsrev https://github.com/Lumaeris/scoop-bucket`. To install, do `scoop install <manifest>`.
+To add this bucket, run `scoop bucket add lumaeris https://github.com/Lumaeris/scoop-bucket`. To install, do `scoop install <manifest>`.
 
 How do I contribute new manifests?
 ----------------------------------
