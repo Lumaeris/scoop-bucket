@@ -2,26 +2,26 @@
     "version": "117.0.5938.157",
     "description": "Google Chromium with additional performance optimization patches and new features.",
     "homepage": "https://thorium.rocks/",
-    "license": "GPL-3.0-only",
+    "license": "BSD-3-Clausey",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M117.0.5938.157/Thorium_117.0.5938.157.zip",
             "hash": "0447f68d007180959f976468cf82e1089f3077699970e19094f7c9150411477a"
         }
     },
-    "extract_dir": "Thorium_117.0.5938.157\\BIN",
+    "extract_dir": "BIN",
     "bin": [
         [
             "thorium.exe",
             "thorium",
-            "--user-data-dir=\"$dir\\User Data\" --allow-outdated-plugins --disable-logging --disable-breakpad --enable-experimental-web-platform-features --new-canvas-2d-api"
+            "--user-data-dir=\"$dir\\User Data\" --allow-outdated-plugins --disable-logging --disable-breakpad"
         ]
     ],
     "shortcuts": [
         [
             "thorium.exe",
             "Thorium",
-            "--user-data-dir=\"$dir\\User Data\" --allow-outdated-plugins --disable-logging --disable-breakpad --enable-experimental-web-platform-features --new-canvas-2d-api"
+            "--user-data-dir=\"$dir\\User Data\" --allow-outdated-plugins --disable-logging --disable-breakpad"
         ]
     ],
     "post_install": [
@@ -43,6 +43,6 @@
                 "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_$version.zip"
             }
         },
-        "extract_dir": "Thorium_$version\\BIN"
+        "extract_dir": "BIN"
     }
 }
