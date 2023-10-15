@@ -25,7 +25,7 @@
         ]
     ],
     "post_install": [
-        "Remove-Item \"$dir\\`Thorium_$version\" -Recurse",
+        "Remove-Item \"$dir\\`BIN\" -Recurse",
         "if (!(Test-Path \"$dir\\UserData\\*\") -and (Test-Path \"$env:LocalAppData\\Thorium\\User Data\")) {",
         "    info '[Portable Mode]: Copying user data...'",
         "    Copy-Item \"$env:LocalAppData\\Thorium\\User Data\\*\" \"$dir\\User Data\" -Recurse",
