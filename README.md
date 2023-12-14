@@ -5,7 +5,6 @@
 Included apps
 -------------
 
-* [Thorium](https://thorium.rocks/) - Google Chromium with additional performance optimization patches and new features.
 * [Gajim](https://gajim.org/) - An instant messaging client for the XMPP protocol which uses the GTK toolkit.
 
 How do I install these manifests?
